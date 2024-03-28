@@ -1,0 +1,39 @@
+[
+    
+    {
+	    "project_id": "darksiderp-launcher",
+	    "project_image": "/images/projects/dsrp-launcher/dsrp-launcher.jpg",
+	    "project_name": "DarksideRP Launcher",
+	    "project_description": "The DarksideRP launcher is the dedicated portal for accessing all of the DarksideRp.net roleplay and War Games servers. Built using Vue.js and Electron it is able to download, mod, and launch games directly into the game servers while displaying news, rules, and other important information to the users.","project_url": "https://darksiderp.net",
+            "external": "true"},
+    {
+	    "project_id": "weareable-support-glasses",
+	    "project_image": "/images/projects/perini-wearables/perini-wearables.jpg",
+	    "project_name": "Weareable Support Glasses",
+	    "project_description": "Wearable Glasses was a technological solution developed by Fabio Perini, for remote and real-time technical assistance with 3D interaction using augmented reality provided by the Daqri Headset.","project_url": "https://www.youtube.com/watch?v=i8QpyMRVdYM",
+            "external": "true"},
+    {
+	    "project_id": "gemstone-framework",
+	    "project_image": "/images/projects/gemstone-framework/gemstone-animation-test.gif",
+	    "project_name": "Gemstone Framework",
+	    "project_description": "A full Python 3 data oriented framework for developing dedicated online games, built ontop of the Panda3D module.","project_url": "/projects/gemstoneengine",
+            "external": "true"},
+    {
+	    "project_id": "körber-tissue-virtual-showroom",
+	    "project_image": "",
+	    "project_name": "Körber Tissue Virtual Showroom",
+	    "project_description": "Virtual Showroom was an experimental platform built with Unreal Engine 4 for showcasing equipment and manufacturing machines to customers in a virtual space using Desktop or VR headsets. It was originally created to give a perspective and understanding of equipment at trade shows without the need to ship an entire machine to the location.","project_url": "",
+            "external": "true"},
+    {
+	    "project_id": "pictofeed",
+	    "project_image": "/images/projects/pictofeed/pictofeed-banner.png",
+	    "project_name": "Pictofeed",
+	    "project_description": "Pictofeed was an experimental image and video social media platform for Android And IOS.","project_url": "/projects",
+            "external": "true"},
+    {
+	    "project_id": "terminal-engine",
+	    "project_image": "/images/projects/terminal-engine/terminal-banner.png",
+	    "project_name": "Terminal Engine",
+	    "project_description": "Terminal is a cross platform terminal ASCII art game engine written in C++ with Python bindings through Cython. Intended for making unique ascii based experiences in Python 3","project_url": "/projects",
+            "external": "true"}
+]
