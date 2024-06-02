@@ -1,0 +1,93 @@
+[
+    
+    {
+	    "game_id": "capture-the-packet",
+	    "game_image": "/images/games/capture-the-packet/ctp-logo.png",
+	    "game_name": "Capture The Packet",
+	    "game_description": "Capture the Packet was a retro hacker themed multiplayer first person shooter. Built from the ground up using retro raycasting methodologies to generate the 3D level.","game_url": "https://github.com/CaptureThePacket",
+            "external": "true"},
+    {
+	    "game_id": "eco",
+	    "game_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/382310/header.jpg?t=1637067939",
+	    "game_name": "Eco",
+	    "game_description": "Eco is a simulation game created by American studio Strange Loop Games, in which players have to work together to create a civilization on a virtual planet. The game values a gentle use of natural resources and is used both as an entertainment and educational tool.","game_url": "https://play.eco",
+            "external": "true"},
+    {
+	    "game_id": "jölf",
+	    "game_image": "/images/games/jolf/jolf-banner.jpg",
+	    "game_name": "Jölf",
+	    "game_description": "Jölf is a modding first physics mini golf game made in Unreal Engine 4, Jölf was built originally by Smartly Dressed Games and continued by Digital Descent, LLC.","game_url": "/games",
+            "external": "true"},
+    {
+	    "game_id": "lego-universe-reimagined",
+	    "game_image": "/images/games/lu-reimagined/lu-banner.jpg",
+	    "game_name": "Lego Universe Reimagined",
+	    "game_description": "Lego Universe Reimagined was an experimental learning project with friends to write a Lego Universe server and RakNet protocol layer entirely in Python 3","game_url": "/games",
+            "external": "true"},
+    {
+	    "game_id": "nexus-reborn",
+	    "game_image": "/images/games/nexus-reborn/wildstar-banner.jpg",
+	    "game_name": "Nexus Reborn",
+	    "game_description": "Nexus Reborn was a full fledged Wildstar emulation server. The project was abandoned in favor of supporting the NexusForever project.","game_url": "/games",
+            "external": "true"},
+    {
+	    "game_id": "o-ink",
+	    "game_image": "/images/games/oink/oink-banner.jpg",
+	    "game_name": "O'ink",
+	    "game_description": "O’ink is an inventive, cute 3D platformer made in inspiration of the classic 3D platformer titles  such as Super Mario N64, Spyro, and the THQ Spongebob series.","game_url": "https://rumrunnerentertainment.itch.io/oink",
+            "external": "true"},
+    {
+	    "game_id": "pirates-online-classic",
+	    "game_image": "/images/games/pirates-classic/port-royal-loading.jpg",
+	    "game_name": "Pirates Online Classic",
+	    "game_description": "Pirates Online Classic was a full scale effort to rebuild the 2007 version of the defunct Disney MMO "Pirates of the Caribbean Online" using the latest version of the Panda3D game engine and Astron server.","game_url": "/games",
+            "external": "true"},
+    {
+	    "game_id": "pirates-of-the-caribbean-online-rewritten",
+	    "game_image": "/images/games/pirates-rewritten/potco-rewritten.jpg",
+	    "game_name": "Pirates of the Caribbean Online Rewritten",
+	    "game_description": "Pirates of the Carribean Online Rewritten was a full scale effort to rebuild the defunct Disney MMO "Pirates of the Caribbean Online" using the latest version of the Panda3D game engine and Astron server. This project is currently archived and open source","game_url": "https://github.com/PiratesOnlineRewritten",
+            "external": "true"},
+    {
+	    "game_id": "programmer-s-quest",
+	    "game_image": "",
+	    "game_name": "Programmer's Quest!",
+	    "game_description": "Programmer's Quest! An open source MMO built on top of the Panda3D game engine and Astron server","game_url": "https://github.com/thetestgame/programmers-quest",
+            "external": "true"},
+    {
+	    "game_id": "safari-rush",
+	    "game_image": "/images/games/safari-rush/safari-rush.png",
+	    "game_name": "Safari Rush",
+	    "game_description": "","game_url": "/games",
+            "external": "true"},
+    {
+	    "game_id": "sketches-through-time",
+	    "game_image": "/images/games/sketches-through-time/stt-prototype-animation.gif",
+	    "game_name": "Sketches Through Time",
+	    "game_description": "Sketches through Time was a prototype point and click adventure game made in Panda3D with artist Anchimayen. You can find more of their artwork on Twitter at @Anchimayen_Art","game_url": "/games",
+            "external": "true"},
+    {
+	    "game_id": "toontown-classic",
+	    "game_image": "/images/games/toontown/br-2003.jpg",
+	    "game_name": "Toontown Classic",
+	    "game_description": "Toontown classic if a full blown emulation of the Disney OTP system and AI for the 2003 version of the game client","game_url": "https://github.com/toontown-classic",
+            "external": "true"},
+    {
+	    "game_id": "toontown-remaster-archival-project",
+	    "game_image": "/images/games/toontown/toontown.jpg",
+	    "game_name": "Toontown Remaster/Archival Project",
+	    "game_description": "Toontown remastered is a full upgrade to modern Python 3.x and Panda3d engine of the closing version of the game from original source. Due to the nature of this project this project is not open source","game_url": "/games",
+            "external": "true"},
+    {
+	    "game_id": "toontown-online-virtual-reality-prototype",
+	    "game_image": "",
+	    "game_name": "Toontown Online - Virtual Reality prototype",
+	    "game_description": "An experimental virtual reality port of Disney's defunct Toontown Online. The project features a custom fork of the Panda3D game engine and a fully upgraded Python 3 version of the original Python 2.2 game.","game_url": "/games/toontownvr",
+            "external": "true"},
+    {
+	    "game_id": "a3p",
+	    "game_image": "/images/games/a3p/a3p-banner.jpg",
+	    "game_name": "A3P",
+	    "game_description": "A3P, an online multiplayer third person shooter game written in Panda3D. Available on itch.io!","game_url": "https://anythingtechpro.itch.io/a3p",
+            "external": "true"}
+]

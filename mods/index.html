@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+
+      
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Game Mods">
+    <meta property="og:description" content="Your general overall nerdy game developer. Powered by coffee.">
+
+    <title>Game Mods</title>
+    <meta name="description" content="Your general overall nerdy game developer. Powered by coffee.">
+
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+    <!-- Animate CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body class="h-100 d-flex flex-column">
+
+    <main class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-themed fixed-left">
+
+    <div class="row justify-content-center align-items-center d-none d-lg-block d-lx-block p-3">
+        <div class="text-center mt-4">
+
+            <!-- Fine Circle Responsive Image -->
+            <div id="container" class="my-2">
+                <div id="dummy"></div>
+                <div id="element">
+                    <img src="https://avatars.githubusercontent.com/u/2001527?v=4" alt="Jordan Maxwell" class="circle-image">
+                </div>
+            </div>
+
+            <p>Your general overall nerdy game developer. Powered by coffee.</p>
+        </div>
+    </div>
+
+    <a class="navbar-brand d-none d-sm-block d-md-block d-lg-none" href="/landing">
+        <h5><b>Jordan Maxwell</b></h5>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/about/">About</a>
+
+        <a class="nav-item nav-link " href="/games/">Games</a>
+
+        <a class="nav-item nav-link active" href="/mods/">Game Mods</a>
+
+        <a class="nav-item nav-link " href="/projects/">Projects</a>
+
+        
+        </div>
+    </div>
+
+    <div class="d-none d-lg-block d-lx-block">
+        <footer class="mt-auto py-3 text-center">
+
+    <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>Jordan Maxwell</strong>
+  </small> <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:nxtlabs13@gmail.com"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.github.com/thetestgame"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.gitlab.com/thetestgame"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#fca326'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-gitlab fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.linkedin.com/in/thetestgame"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.twitch.tv/thetestgame"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#6441a5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-twitch fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.twitter.com/thetestgame2"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#1da1f2'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-twitter fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.youtube.com/channel/UCe3YxaTrVk25oaO1mFSs2cw"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#ff0000'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-youtube fa-1x"></i>
+    </a>
+
+</div>
+</footer>
+    </div>
+</nav> 
+        <h1>My Game Mods</h1>
+
+<!-- Card Search -->
+<div class="row py-2">
+  <div class="col-sm-4">
+    <input type="search" placeholder="Filter mods by title, tag, ect..." name="search" class="form-control searchbox-input text-light" required="">
+  </div>
+</div>
+
+<!-- Games -->
+<div class="card-columns m-3 mt-5">
+  
+  
+
+  <div class="wow animated fadeIn" data-wow-delay=".15s">
+    <a href="https://github.com/thetestgame/Wildstar-AdvancedCommunicators" class="project card text-themed"target="_blank"><img id="advanced-communicators-img" class="card-img-top" src="/images/mods/wildstar/advanced-communicators.png" alt="Advanced Communicators" /><div class="card-body">
+      <h5 id="advanced-communicators-name" class="card-title">Wildstar - Advanced Communicators</h5>
+      <p id="advanced-communicators-desc" class="card-text">A Wildstar addon that extends the native CommDisplay addon by Carbine to give it more functionality and player to player communication via the communicators UI</p>
+      <p id="advanced-communicators-tools-platforms" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">Lua</span><span class="badge badge-pill text-primary border border-info ml-1">Platform: Windows</span></p>
+
+      <p id="advanced-communicators-meta-details" class="card-text">
+        <span class="badge badge-pill text-primary border border-success ml-1">Game: Wildstar</span>
+      </p>
+    </div>
+  </a>
+</div>
+  <div class="wow animated fadeIn" data-wow-delay=".15s">
+    <a href="/mods" class="project card text-themed"target="_blank"><img id="community-server-img" class="card-img-top" src="/images/mods/thesims3/sims3-town.jpg" alt="Community Server" /><div class="card-body">
+      <h5 id="community-server-name" class="card-title">The Sims 3 - Community Server</h5>
+      <p id="community-server-desc" class="card-text">The Sims 3 Online mod allows the creation of 20 player community town servers. Allowing the players to experience a multiplayer live town in real time.<br/><br/>This mod is currently in private testing.</p>
+      <p id="community-server-tools-platforms" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">C#</span><span class="badge badge-pill text-primary border border-info ml-1">Platform: Windows</span></p>
+
+      <p id="community-server-meta-details" class="card-text">
+        <span class="badge badge-pill text-primary border border-success ml-1">Game: The Sims 3</span>
+      </p>
+    </div>
+  </a>
+</div>
+  <div class="wow animated fadeIn" data-wow-delay=".15s">
+    <a href="https://github.com/thetestgame/Eco-Discord-Access-Mod" class="project card text-themed"target="_blank"><img id="discord-access-mod-img" class="card-img-top" src="/images/mods/discord-generic.png" alt="Discord Access Mod" /><div class="card-body">
+      <h5 id="discord-access-mod-name" class="card-title">Eco - Discord Access Mod</h5>
+      <p id="discord-access-mod-desc" class="card-text">This mod provides Discord role based access to Eco servers. Allowing for more automatic control of who can access your community Eco servers. This mod can also be bundled with the native Discord Twitch integration and the Twitch Subscriber role to create subscriber only Eco servers.<br/><br/>This mod was originally created to demostrate the usage of the new IUserAuthorizer interface in Eco 9.5+. Any long term support or reliability cannot be guaranteed.<br/><br/>Note: This mod is currently dependant on an experimental ModKit api change for Eco 9.5+</p>
+      <p id="discord-access-mod-tools-platforms" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">C#</span><span class="badge badge-pill text-primary border border-info ml-1">Platform: Windows</span><span class="badge badge-pill text-primary border border-info ml-1">Platform: MacOS</span><span class="badge badge-pill text-primary border border-info ml-1">Platform: Linux</span></p>
+
+      <p id="discord-access-mod-meta-details" class="card-text">
+        <span class="badge badge-pill text-primary border border-success ml-1">Game: Eco</span>
+      </p>
+    </div>
+  </a>
+</div>
+  <div class="wow animated fadeIn" data-wow-delay=".15s">
+    <a href="/mods" class="project card text-themed"target="_blank"><img id="floating-images-img" class="card-img-top" src="/images/mods/minecraft/floating-images.png" alt="Floating Images" /><div class="card-body">
+      <h5 id="floating-images-name" class="card-title">Minecraft - Floating Images</h5>
+      <p id="floating-images-desc" class="card-text">The Bukkit Floating Images plugin allows for the creation of floating images by abusing entity packets. Originally created for Mine-RP</p>
+      <p id="floating-images-tools-platforms" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">Java</span><span class="badge badge-pill text-primary border border-primary ml-1">Bukkit</span><span class="badge badge-pill text-primary border border-info ml-1">Platform: Windows</span><span class="badge badge-pill text-primary border border-info ml-1">Platform: Linux</span><span class="badge badge-pill text-primary border border-info ml-1">Platform: MacOS</span></p>
+
+      <p id="floating-images-meta-details" class="card-text">
+        <span class="badge badge-pill text-primary border border-success ml-1">Game: Minecraft</span>
+      </p>
+    </div>
+  </a>
+</div>
+  <div class="wow animated fadeIn" data-wow-delay=".15s">
+    <a href="https://github.com/thetestgame/EcoGlueMod" class="project card text-themed"target="_blank"><img id="glue-mod-img" class="card-img-top" src="https://github.com/thetestgame/EcoGlueMod/raw/main/.github/glue.png" alt="Glue Mod" /><div class="card-body">
+      <h5 id="glue-mod-name" class="card-title">Eco - Glue Mod</h5>
+      <p id="glue-mod-desc" class="card-text">The Eco glue mod is a joke meme mod for Eco based around Streamer AdmiralBahroo's glue panda emotes. Based on the actual scientific nutritional values of elmer's glue. The mod exists purely for memes. Has no official affiliation with Eco or gameplay purpose.</p>
+      <p id="glue-mod-tools-platforms" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">C#</span><span class="badge badge-pill text-primary border border-info ml-1">Platform: Windows</span><span class="badge badge-pill text-primary border border-info ml-1">Platform: MacOS</span><span class="badge badge-pill text-primary border border-info ml-1">Platform: Linux</span></p>
+
+      <p id="glue-mod-meta-details" class="card-text">
+        <span class="badge badge-pill text-primary border border-success ml-1">Game: Eco</span>
+      </p>
+    </div>
+  </a>
+</div>
+  <div class="wow animated fadeIn" data-wow-delay=".15s">
+    <a href="/mods/ecolargesignsmod" class="project card text-themed"><div class="card-body">
+      <h5 id="large-signs-mod-name" class="card-title">Eco - Large Signs Mod</h5>
+      <p id="large-signs-mod-desc" class="card-text">An Eco core override mod that extends the Eco signs for large text capacity</p>
+      <p id="large-signs-mod-tools-platforms" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">C#</span><span class="badge badge-pill text-primary border border-info ml-1">Platform: Windows</span><span class="badge badge-pill text-primary border border-info ml-1">Platform: MacOS</span><span class="badge badge-pill text-primary border border-info ml-1">Platform: Linux</span></p>
+
+      <p id="large-signs-mod-meta-details" class="card-text">
+        <span class="badge badge-pill text-primary border border-success ml-1">Game: Eco</span>
+      </p>
+    </div>
+  </a>
+</div>
+  <div class="wow animated fadeIn" data-wow-delay=".15s">
+    <a href="https://github.com/thetestgame/Eco-No-More-Books-Mod" class="project card text-themed"target="_blank"><img id="no-more-books-mod-img" class="card-img-top" src="https://github.com/thetestgame/Eco-No-More-Books-Mod/raw/master/docs/nomorebookspreview.1.png" alt="No More Books Mod" /><div class="card-body">
+      <h5 id="no-more-books-mod-name" class="card-title">Eco - No More Books Mod</h5>
+      <p id="no-more-books-mod-desc" class="card-text">Tired of players getting a book from the research table just to hand scrolls out to everyone? Want to make your server more challenging? This mod will not allow books to be made on the research table, only scrolls, thus stopping players from making too many scrolls and giving them away.</p>
+      <p id="no-more-books-mod-tools-platforms" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">C#</span><span class="badge badge-pill text-primary border border-info ml-1">Platform: Windows</span><span class="badge badge-pill text-primary border border-info ml-1">Platform: MacOS</span><span class="badge badge-pill text-primary border border-info ml-1">Platform: Linux</span></p>
+
+      <p id="no-more-books-mod-meta-details" class="card-text">
+        <span class="badge badge-pill text-primary border border-success ml-1">Game: Eco</span>
+      </p>
+    </div>
+  </a>
+</div>
+  <div class="wow animated fadeIn" data-wow-delay=".15s">
+    <a href="/mods" class="project card text-themed"target="_blank"><img id="nxtspeak-img" class="card-img-top" src="/images/mods/teamspeak-generic.png" alt="NxtSpeak" /><div class="card-body">
+      <h5 id="nxtspeak-name" class="card-title">Minecraft - NxtSpeak</h5>
+      <p id="nxtspeak-desc" class="card-text">NxtSpeak is an Bukkit plugin for Minecraft. It creates a TeamSpeak3 in-game interface for your players to interact with your voice server. Originally created for Mine-RP</p>
+      <p id="nxtspeak-tools-platforms" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">Java</span><span class="badge badge-pill text-primary border border-primary ml-1">Bukkit</span><span class="badge badge-pill text-primary border border-info ml-1">Platform: Windows</span><span class="badge badge-pill text-primary border border-info ml-1">Platform: Linux</span><span class="badge badge-pill text-primary border border-info ml-1">Platform: MacOS</span></p>
+
+      <p id="nxtspeak-meta-details" class="card-text">
+        <span class="badge badge-pill text-primary border border-success ml-1">Game: Minecraft</span>
+      </p>
+    </div>
+  </a>
+</div>
+  <div class="wow animated fadeIn" data-wow-delay=".15s">
+    <a href="https://github.com/thetestgame/Wildstar-RPBots" class="project card text-themed"target="_blank"><img id="rp-bots-img" class="card-img-top" src="/images/mods/wildstar/scanbot.webp" alt="RP Bots" /><div class="card-body">
+      <h5 id="rp-bots-name" class="card-title">Wildstar - RP Bots</h5>
+      <p id="rp-bots-desc" class="card-text">An unfinished and abandoned Wildstar addon that allows your bots/pets to join in on Roleplay sessions</p>
+      <p id="rp-bots-tools-platforms" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">Lua</span><span class="badge badge-pill text-primary border border-info ml-1">Platform: Windows</span></p>
+
+      <p id="rp-bots-meta-details" class="card-text">
+        <span class="badge badge-pill text-primary border border-success ml-1">Game: Wildstar</span>
+      </p>
+    </div>
+  </a>
+</div>
+  
+</div>
+
+<script>
+$(document).ready(function(){
+  $('.searchbox-input').on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $(".card").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+    </main>
+
+    <div class="d-none d-sm-block d-md-block d-lg-none">
+        <footer class="mt-auto py-3 text-center">
+
+    <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>Jordan Maxwell</strong>
+  </small> <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:nxtlabs13@gmail.com"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.github.com/thetestgame"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.gitlab.com/thetestgame"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#fca326'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-gitlab fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.linkedin.com/in/thetestgame"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.twitch.tv/thetestgame"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#6441a5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-twitch fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.twitter.com/thetestgame2"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#1da1f2'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-twitter fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.youtube.com/channel/UCe3YxaTrVk25oaO1mFSs2cw"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#ff0000'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-youtube fa-1x"></i>
+    </a>
+
+</div>
+</footer> 
+    </div>
+     <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+
+
+</body>
+</html>

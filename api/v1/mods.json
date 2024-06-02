@@ -1,0 +1,57 @@
+[
+    
+    {
+	    "mod_id": "discord-access-mod",
+	    "mod_image": "/images/mods/discord-generic.png",
+	    "mod_name": "Discord Access Mod",
+	    "mod_description": "This mod provides Discord role based access to Eco servers. Allowing for more automatic control of who can access your community Eco servers. This mod can also be bundled with the native Discord Twitch integration and the Twitch Subscriber role to create subscriber only Eco servers.<br/><br/>This mod was originally created to demostrate the usage of the new IUserAuthorizer interface in Eco 9.5+. Any long term support or reliability cannot be guaranteed.<br/><br/>Note: This mod is currently dependant on an experimental ModKit api change for Eco 9.5+","mod_url": "https://github.com/thetestgame/Eco-Discord-Access-Mod",
+            "external": "true"},
+    {
+	    "mod_id": "glue-mod",
+	    "mod_image": "https://github.com/thetestgame/EcoGlueMod/raw/main/.github/glue.png",
+	    "mod_name": "Glue Mod",
+	    "mod_description": "The Eco glue mod is a joke meme mod for Eco based around Streamer AdmiralBahroo's glue panda emotes. Based on the actual scientific nutritional values of elmer's glue. The mod exists purely for memes. Has no official affiliation with Eco or gameplay purpose.","mod_url": "https://github.com/thetestgame/EcoGlueMod",
+            "external": "true"},
+    {
+	    "mod_id": "large-signs-mod",
+	    "mod_image": "",
+	    "mod_name": "Large Signs Mod",
+	    "mod_description": "An Eco core override mod that extends the Eco signs for large text capacity","mod_url": "/mods/ecolargesignsmod",
+            "external": "true"},
+    {
+	    "mod_id": "no-more-books-mod",
+	    "mod_image": "https://github.com/thetestgame/Eco-No-More-Books-Mod/raw/master/docs/nomorebookspreview.1.png",
+	    "mod_name": "No More Books Mod",
+	    "mod_description": "Tired of players getting a book from the research table just to hand scrolls out to everyone? Want to make your server more challenging? This mod will not allow books to be made on the research table, only scrolls, thus stopping players from making too many scrolls and giving them away.","mod_url": "https://github.com/thetestgame/Eco-No-More-Books-Mod",
+            "external": "true"},
+    {
+	    "mod_id": "floating-images",
+	    "mod_image": "/images/mods/minecraft/floating-images.png",
+	    "mod_name": "Floating Images",
+	    "mod_description": "The Bukkit Floating Images plugin allows for the creation of floating images by abusing entity packets. Originally created for Mine-RP","mod_url": "/mods",
+            "external": "true"},
+    {
+	    "mod_id": "nxtspeak",
+	    "mod_image": "/images/mods/teamspeak-generic.png",
+	    "mod_name": "NxtSpeak",
+	    "mod_description": "NxtSpeak is an Bukkit plugin for Minecraft. It creates a TeamSpeak3 in-game interface for your players to interact with your voice server. Originally created for Mine-RP","mod_url": "/mods",
+            "external": "true"},
+    {
+	    "mod_id": "community-server",
+	    "mod_image": "/images/mods/thesims3/sims3-town.jpg",
+	    "mod_name": "Community Server",
+	    "mod_description": "The Sims 3 Online mod allows the creation of 20 player community town servers. Allowing the players to experience a multiplayer live town in real time.<br/><br/>This mod is currently in private testing.","mod_url": "/mods",
+            "external": "true"},
+    {
+	    "mod_id": "advanced-communicators",
+	    "mod_image": "/images/mods/wildstar/advanced-communicators.png",
+	    "mod_name": "Advanced Communicators",
+	    "mod_description": "A Wildstar addon that extends the native CommDisplay addon by Carbine to give it more functionality and player to player communication via the communicators UI","mod_url": "https://github.com/thetestgame/Wildstar-AdvancedCommunicators",
+            "external": "true"},
+    {
+	    "mod_id": "rp-bots",
+	    "mod_image": "/images/mods/wildstar/scanbot.webp",
+	    "mod_name": "RP Bots",
+	    "mod_description": "An unfinished and abandoned Wildstar addon that allows your bots/pets to join in on Roleplay sessions","mod_url": "https://github.com/thetestgame/Wildstar-RPBots",
+            "external": "true"}
+]
